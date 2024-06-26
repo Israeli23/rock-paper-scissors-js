@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>Dom</title>
+        <link rel="stylesheet" href="styles/rps.css">
+    </head>
+
+    <body>
+        <p>Youtube Subscribe Button</p>
+        <button onclick="
+            subscribe();
+        " class="js-subscribe-button subscribe-button">Subscribe</button>
+
+        <p>Amazon Shipping Calculator</p>
+        <input placeholder="Cost of order" class="js-cost-input cost-input" onkeydown=";
+            handleCostKeydown(event);
+        ">
+        <button onclick="
+            calculateTotal();
+        " class="calculate-button">Calculate</button>
+        <p class="js-total-cost"></p>
+
+
+        <script src="Script/rps.js"></script>
+    </body>
+</html>
